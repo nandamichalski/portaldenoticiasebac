@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    color: #f5f6fa;
+    padding: 16px 0;
+}
+
+    .container {
+    width: 1366px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.1)
+}
+
+#esportes .articles article a {
+    background-color: #009432;
+}
+
+#economia {
+    background-color: #f8f59fc5;
+}
+
+#economia .articles article a {
+    background-color: #ff9f1a;
+}
+
+#politica {
+    background-color: rgba(30, 42, 212, 0.233)
+}
+
+#politica .articles article a {
+    background-color: #1f0691;
+}
+
+#saude {
+    background-color: rgba(233, 50, 18, 0.356)
+}
+
+#saude .articles article a {
+    background-color: #971c06;
+}
